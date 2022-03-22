@@ -46,20 +46,20 @@ public class ContratanteDTO {
 	}
 	
 	public ContratanteDTO(Contratante con){
-		 Long Id = con.getId();
-		 String nomeContratante = con.getNomeContratante();
-		 String cpfContratante = con.getCpfContratante();
-		 String cnpjContratante = con.getCnpjContratante();
-		 String enderecoContratante = con.getEnderecoContratante();
-		 String bairroContratante = con.getBairroContratante();
-		 String cidadeContratante = con.getCidadeContratante();
-		 String estadoContratante = con.getEstadoContratante();
-		 String seguimentoContratante = con.getSeguimentoContratante();
-		 String telefoneContratante = con.getTelefoneContratante();
-		 String emailContratante = con.getEmailContratante();
-		 int valorHoraContratante = con.getValorHoraContratante();
-		 String bioContratante = con.getBioContratante();
-		 Date dataCadastroContratante = con.getDataCadastroContratante();
+		 this.Id = con.getId();
+		 this.nomeContratante = con.getNomeContratante();
+		 this.cpfContratante = con.getCpfContratante();
+		 this.cnpjContratante = con.getCnpjContratante();
+		 this.enderecoContratante = con.getEnderecoContratante();
+		 this.bairroContratante = con.getBairroContratante();
+		 this.cidadeContratante = con.getCidadeContratante();
+		 this.estadoContratante = con.getEstadoContratante();
+		 this.seguimentoContratante = con.getSeguimentoContratante();
+		 this.telefoneContratante = con.getTelefoneContratante();
+		 this.emailContratante = con.getEmailContratante();
+		 this.valorHoraContratante = con.getValorHoraContratante();
+		 this.bioContratante = con.getBioContratante();
+		 this.dataCadastroContratante = con.getDataCadastroContratante();
 	}
 
 	public Long getId() {
